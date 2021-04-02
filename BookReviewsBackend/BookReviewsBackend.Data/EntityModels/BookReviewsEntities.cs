@@ -2,7 +2,7 @@
 
 namespace BookReviewsBackend.Data.EntityModels
 {
-    class BookReviewsEntities : DbContext
+    public class BookReviewsEntities : DbContext
     {
         public BookReviewsEntities(DbContextOptions<BookReviewsEntities> options) : base(options) { }
         public DbSet<Book>Books { get; set; }

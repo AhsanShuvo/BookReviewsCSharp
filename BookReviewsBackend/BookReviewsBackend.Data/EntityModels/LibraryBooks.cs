@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BookReviewsBackend.Data.EntityModels
 {
-    class LibraryBook
+    public class LibraryBook
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

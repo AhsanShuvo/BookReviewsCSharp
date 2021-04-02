@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BookReviewsBackend.Data.EntityModels
 {
-    class Branch
+    public class Branch
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
